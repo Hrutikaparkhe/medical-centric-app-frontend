@@ -1,0 +1,40 @@
+@import "../../styles/colors.scss";
+@import "../../styles/mixins.scss";
+body {
+  background-color: $lightgray;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-container {
+  background-color: $white;
+  margin-top: 4rem;
+  border-radius: 20px;
+}
+.login-form {
+  padding: 0.5rem 3rem 3rem 3rem;
+}
+.login-header {
+  color: $defalutButtonColor;
+  display: flex;
+  justify-content: center;
+}
+.custom-login-btn {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.register-link {
+  padding-top: 1rem;
+}
+.login-text {
+  color: $darkgrey;
+}
+.register-here-btn {
+  border: none;
+  background-color: transparent;
+  color: $primary;
+  cursor: pointer;
+}

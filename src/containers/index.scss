@@ -1,0 +1,58 @@
+// @import "../../components/colors.scss";
+.title {
+  text-transform: capitalize;
+  color: $ternary-gray;
+}
+.input-container {
+  border: 2px solid $primary-gray;
+  border-radius: 8px;
+  width: 320px;
+  display: flex;
+  margin: 6px 0px;
+}
+.input-container-shadow {
+  box-shadow: $boxShadow;
+}
+.end-adornment {
+  width: 13.33px;
+  height: 13.33px;
+  padding-right: 20px;
+  padding-top: 5px;
+  color: $primary-gray;
+}
+.phoneInput {
+  width: 100%;
+  // padding: 10px;
+  border: none;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  // border-radius: 8px;
+}
+input:focus {
+  outline: none;
+}
+.warning-msg {
+  font-size: 14px;
+  color: $secondary-gray;
+  margin-bottom: 16px;
+}
+.start-adornment {
+  padding-left: 5px;
+  padding-top: 5px;
+  color: $primary-gray;
+}
+.copy-button {
+  display: flex;
+  padding-top: 8px;
+  border: none;
+  border-left: 1px solid $primary-gray;
+  background: white;
+  color: $ternary-gray;
+}
+.copy-icon {
+  width: 10px;
+  height: 10px;
+}

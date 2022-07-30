@@ -1,0 +1,15 @@
+@import "../../styles/colors.scss";
+@import "../../styles/mixins.scss";
+
+.btn-common-style {
+  @include buttonStyle(15px 32px, $white, $defalutButtonColor, 18px);
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    background-color: $primary;
+  }
+}

@@ -1,0 +1,14 @@
+@mixin buttonStyle($padding, $textColor, $color, $size) {
+  background-color: $color;
+  padding: $padding;
+  color: $textColor;
+  font-size: $size;
+}
+@mixin inpustStyle($padding,$font,$height,$background, $color) {
+  padding: $padding;
+  font-size: $font;
+  height: $height;
+  background-color: $background;
+  color:$color;
+ 
+}
